@@ -20,9 +20,9 @@ body{
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 10px;
-  background-color: black;
+  background-color: burlywood;
    margin: 20px 0px;
    position: sticky;
    top: 0;
@@ -55,6 +55,7 @@ body{
   margin: 10px;
 }
 .videos .line{
+  display: flex;
   padding: 10px;
   margin: 10px;
   width: 100%;
@@ -67,5 +68,4 @@ body{
 .contact .info{
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
 }
