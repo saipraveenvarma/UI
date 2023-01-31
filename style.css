@@ -50,14 +50,22 @@ body{
 }
 .videos{
   display: grid;
-  /* border: 2px solid red; */
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   margin: 10px;
 }
 .videos .line{
-  /* border: 2px solid black; */
   padding: 10px;
   margin: 10px;
   width: 100%;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contact .info{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
 }
